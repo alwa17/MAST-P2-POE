@@ -4,13 +4,13 @@ import { View, Text, FlatList, StyleSheet, Button, Alert } from 'react-native'; 
 
 // Array of meals that will be displayed on the home page
 const meals = [
-  { id: '1', name: 'Spaghetti Bolognese', description: 'Classic Italian pasta with meat sauce.', price: '$12.99' },
-  { id: '2', name: 'Margherita Pizza', description: 'Tomato, mozzarella, and basil pizza.', price: '$10.99' },
-  { id: '3', name: 'Caesar Salad', description: 'Fresh romaine lettuce with Caesar dressing.', price: '$8.99' },
-  { id: '4', name: 'Grilled Chicken Sandwich', description: 'Grilled chicken breast with toppings.', price: '$9.99' },
-  { id: '5', name: 'Cheeseburger', description: 'Classic beef burger with cheese and lettuce.', price: '$11.49' },
-  { id: '6', name: 'Tacos', description: 'Three soft tacos with choice of beef or chicken.', price: '$7.99' },
-  { id: '7', name: 'Fish and Chips', description: 'Fried fish served with fries.', price: '$13.49' },
+  { id: '1', name: 'Monday meal', description: 'Meal prepared on this day.', price: 'R--' },
+  { id: '2', name: 'Tuesday meal', description: 'Meal prepared on this day.', price: 'R--' },
+  { id: '3', name: 'Wednesday meal', description: 'Meal prepared on this day.', price: 'R--' },
+  { id: '4', name: 'Thursday meal', description: 'Meal prepared on this day.', price: 'R--' },
+  { id: '5', name: 'Friday meal', description: 'Meal prepared on this day.', price: 'R--' },
+  { id: '6', name: 'Saturday meal', description: 'Meal prepared on this day.', price: 'R--' },
+  { id: '7', name: 'Sunday meal', description: 'Meal prepared on this day.', price: 'R--' },
 ];
 
 // Main component function for the restaurant app

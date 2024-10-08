@@ -88,3 +88,6 @@ const styles = StyleSheet.create({
 });
 
 export default RestaurantApp; // Exports the component to be used in the app entry point
+
+//Referencing list
+
